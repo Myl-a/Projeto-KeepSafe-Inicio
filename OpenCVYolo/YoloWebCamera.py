@@ -18,7 +18,7 @@ camera = cv2.VideoCapture(camera_url)
 h, w = None, None
 
 # Carrega o arquivos com o nome dos objetos que o arquivo foi treinado para detectar
-with open('yoloDados/YoloNames.names') as f:
+with open('YoloNames.names') as f:
     # cria uma lista com todos os nomes
     labels = [line.strip() for line in f]
 

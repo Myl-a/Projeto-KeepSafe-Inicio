@@ -1,1 +1,1 @@
-# OpenCVScript
+# Detecção de objetos em video e imagens
